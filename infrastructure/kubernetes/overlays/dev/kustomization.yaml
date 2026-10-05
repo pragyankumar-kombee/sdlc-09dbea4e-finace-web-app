@@ -7,11 +7,10 @@ resources:
 
 namePrefix: dev-
 
-commonLabels:
-  environment: dev
+labels:
+  - pairs:
+      environment: dev
 
 replicas:
-  - name: argocd-server
-    count: 1
-  - name: argocd-repo-server
+  - name: app-deployment
     count: 1
