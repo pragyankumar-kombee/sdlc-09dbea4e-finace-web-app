@@ -1,0 +1,30 @@
+# @module: DependencyManifest.backend/requirements.txt
+# @spec_section_id: implementation_blueprint
+# @req_ids: N/A
+# @agent: CodeGenerationAgent
+# @run_id: run-p4-1790144399
+# @version: 1
+
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+pydantic==2.6.3
+pydantic-settings==2.2.1
+sqlalchemy==2.0.27
+psycopg2-binary==2.9.9
+alembic==1.13.1
+redis==5.0.1
+passlib[argon2]==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+requests==2.31.3
+plaid-python==19.0.0
+celery==5.3.6
+cryptography==42.0.5
+email-validator==2.1.1
+httpx==0.27.0
+pytest==8.1.1
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+black==24.2.0
+flake8==7.0.0
+isort==5.13.2
